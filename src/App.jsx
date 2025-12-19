@@ -25,8 +25,8 @@ function App() {
 
   return (
     <>
-      <div className="rounded p-6 outline shadow-lg m-6">
-        <div className="grid grid-cols-[11rem_8rem_4rem] gap-2 m-4">
+      <div className="rounded outline shadow-lg p-4 m-4 flex flex-col">
+        <div className="grid grid-cols-[10rem_auto_4rem] gap-2 m-3">
             <div className="h-10 w-full bg-gradient-to-r from-sky-700 to-sky-200 bg-clip-text text-transparent col-span-3 text-xl font-bold italic">現像液の希釈水の水温の計算</div>
             
             <div className=" italic">ターゲット量</div>
@@ -42,7 +42,7 @@ function App() {
             <div></div>
 
             <div className=" italic">現像液の量</div>
-            <div className=" text-right rounded-lg pr-4 bg-sky-100">{developerVolume}</div>
+            <div className=" text-right rounded-lg pr-4">{developerVolume}</div>
             <div>ml</div>
 
             <div className=" italic">現像液の温度</div>
@@ -50,15 +50,19 @@ function App() {
             <div>℃</div>
 
             <div className=" italic">加える水の量</div>
-            <div className=" text-right rounded-lg pr-4 bg-sky-100">{waterVolume}</div>
+            <div className=" text-right rounded-lg pr-4">{waterVolume}</div>
             <div>ml</div>
 
             <div className=" italic">加える水の温度</div>
-            <div className=" text-right rounded-lg pr-4 bg-sky-100">{waterTemp}</div>
+            <div className=" text-right rounded-lg pr-4">{waterTemp}</div>
             <div>℃</div>
+
         </div>
         <input type="button" value="再計算" className="self-center bg-sky-500 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded" onClick={recalculate}></input>
       </div>
+
+
+      {false &&
       <div className="flex rounded p-6 outline shadow-lg m-6">
         <div className="grid grid-cols-[11rem_8rem_4rem] gap-2 m-4">
             <div className="h-10 w-full bg-gradient-to-r from-sky-700 to-sky-200 bg-clip-text text-transparent col-span-3 text-xl font-bold italic">保温バケツの計算</div>
@@ -79,8 +83,8 @@ function App() {
             <div className=" text-right rounded-lg pr-4 bg-sky-100">270</div>
             <div>g</div>
         </div>
-    </div>
-
+      </div>
+  }
     </>
   )
 }
