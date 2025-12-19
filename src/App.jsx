@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -26,7 +24,7 @@ function App() {
   return (
     <>
       <div className="rounded outline shadow-lg p-4 m-4 flex flex-col">
-        <div className="grid grid-cols-[10rem_auto_4rem] gap-2 m-3">
+        <div className="grid grid-cols-[10rem_9rem_4rem] gap-2 m-3">
             <div className="h-10 w-full bg-gradient-to-r from-sky-700 to-sky-200 bg-clip-text text-transparent col-span-3 text-xl font-bold italic">現像液の希釈水の水温の計算</div>
             
             <div className=" italic">ターゲット量</div>
