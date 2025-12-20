@@ -1,0 +1,1 @@
+{"name":"現像液調整計算機","short_name":"現像液計算機","description":"フィルム現像液の希釈や温度調整を手助けする計算機です。","start_url":"./","display":"standalone","background_color":"#ffffff","theme_color":"#0ea5e9","lang":"en","scope":"./","icons":[{"src":"nya-yama.png","sizes":"512x512"}],"id":"/react-genzo/"}
