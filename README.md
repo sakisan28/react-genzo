@@ -1,3 +1,17 @@
+
+
+
+# 希釈現像液を使うときの液温の計算アプリ
+
+React + Tailwindcss + PWA の練習に作りました
+[https://sakisan28.github.io/react-genzo/] にアクセスして、iPhoneの共有メニューからホームページに保存を選択すると使えます。
+一度保存した後はネットワークが切れていても大丈夫。
+
+
+
+
+
+---
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
